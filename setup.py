@@ -1,5 +1,5 @@
 ################################################################################
-#    multi-tools: Utilities for using multiprocessing with numpy arrays
+#    multi-tool: Utilities for using multiprocessing with numpy arrays
 #
 #    AUTHOR: Matthew Hanson
 #    EMAIL:  matt.a.hanson@gmail.com
@@ -22,11 +22,11 @@
 from setuptools import setuptools
 
 
-__version__ = imp.load_source('multitools.version', 'multitools/version.py').__version__
+__version__ = imp.load_source('multitool.version', 'multitool/version.py').__version__
 
 
 setup(
-    name='multitools',
+    name='multitool',
     version=__version__,
     description='Python utilities for using multiprocessing with numpy arrays',
     author='Matthew Hanson',
@@ -37,5 +37,5 @@ setup(
         'Programming Language :: Python',
         'Programming Language :: Python :: 2.7',
     ],
-    packages=['multitools'],
+    packages=['multitool'],
 )
