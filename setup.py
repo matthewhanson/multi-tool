@@ -19,7 +19,8 @@
 #    limitations under the License.
 ################################################################################
 
-from setuptools import setuptools
+import imp
+from setuptools import setup
 
 
 __version__ = imp.load_source('multitool.version', 'multitool/version.py').__version__
